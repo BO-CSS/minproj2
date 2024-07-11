@@ -83,7 +83,7 @@ function AddItem(id) {
             cat.appendChild(newItem);
         })
     }
-/ Loop to fetch info for multiple targets
+// Loop to fetch info for multiple targets
 for (let i = 0; i <= 13; i++) {
     FetchInfo(`.target${i}`, i);
 }
